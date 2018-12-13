@@ -1,3 +1,8 @@
+# Spotify Features - Tinkering tutorial/ walkthrough
+### File descriptions
+- `\data` contains json song data
+- `get_data.py` allows for easy attraction of playlist data using Spotify for developers account (see below for more details)
+- `tinker.ipynb` takes json feature data from a playlist and converts to a pandas dataframe, draws feature histograms of said data
 ### Directions for getting song features - using Spotify for Developers Account
 - you need a spotify CLIENT_ID & CLIENT_SECRET for this
 - make a `credentials.py` file and input details, sample format below, you really just need the CLIENT_ID and CLIENT_SECRET
